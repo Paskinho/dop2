@@ -23,7 +23,6 @@ function App() {
     //         .then(json => setShow(json))
     // }, [])
 
-
     const useShowUP = () => {
         fetch('https://jsonplaceholder.typicode.com/todos')
             .then(response => response.json())
